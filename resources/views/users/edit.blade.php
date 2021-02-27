@@ -18,17 +18,6 @@
                                 </div>
                             </div>
 
-
-
-                            <div class="col-12 col-md-6">
-                                <div class="form-group">
-                                    <label for="text_color">Text Color</label>
-                                    <input type="text" id="text_color" name="text_color" class="form-control{{ $errors->first('text_color') ? 'is-invalid' : '' }}" value="{{ $user->text_color }}">
-                                    @if($errors->first('text_color'))
-                                        <div class="invalid-feedback">{{ $errors->first('text_color') }}</div>
-                                    @endif
-                                </div>
-                            </div>
                         </div>
                         
 
