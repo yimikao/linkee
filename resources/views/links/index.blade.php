@@ -21,7 +21,7 @@
                                 <tr>
                                     <td>{{ $link->name }}</td>
                                     <td><a href="{{ $link->link }}">{{ $link->link }}</a></td>
-                                    <td>{{ $link->visits()->count() }}</td>
+                                    <td>{{ $link->visits->count() }}</td>
                                     <td>{{ $link->latest_visit ? $link->latest_visit->created_at->format('M j Y - H:ia') : 'N/A' }}</td>
                                     <td><a href="/dashboard/links/{{ $link->id }}">Edit link</a></td>
                                 </tr>

@@ -1,0 +1,98 @@
+:root {
+    --purple: rgb(0, 102, 255);
+    --blue: blue;
+    --black: black;
+    --green: rgb(1, 143, 65);
+    --lightblue: rgb(233, 250, 250);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: ubuntu;
+}
+
+body {
+    /* color: white; */
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    /* background-color: var(--black); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    padding: 1em;
+    list-style: none; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    padding: 1em;
+}
+
+#nav-btn {
+    background-color:  rgb(211, 211, 211);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#heading {
+    margin-top: 0;
+    background-color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    padding-top: 2em;
+    text-align: center;
+    font-size: 3.5em;
+
+}
+
+#btn {
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    margin: auto;
+}
+
+
+#con-con {
+    margin-top: 0;
+    background-color: var(--purple);
+}
+
+
+
+div.ccard {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  div.hheader {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+  }
+  
+  div.ccontainer {
+    padding: 10px;
+  }

@@ -18,8 +18,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/userlinks.css') }}" rel="stylesheet">
+    
+
 </head>
-<body style="background-color: {{ $user->background_color }};">
+<!-- <body style="background-color: {{ $user->background_color }};"> -->
+<body style="background-color: white;">
+
     <div id="app">
             @yield('content')
     </div>

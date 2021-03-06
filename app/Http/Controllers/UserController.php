@@ -17,7 +17,7 @@ class UserController extends Controller
 
     public function update(Request $request)
     {   
-        Auth::user()->update($request->only(['background_color', 'text_color']));
+        Auth::user()->update($request->only(['username']));
 
         return redirect()->back()->with([
             'success' => 'Changes saved successfully.'
