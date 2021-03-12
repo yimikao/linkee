@@ -43,6 +43,7 @@
 
     <main id="heading" class="text-center">
         <h1>All your links in one place</h1>
+        <p >Linkee lets you easily connect your audience<br>with your content and services.</p>
          <a id="btn"href="{{ url('/dashboard/links/new') }}"> Get started</a>
         
 

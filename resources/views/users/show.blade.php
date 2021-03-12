@@ -44,7 +44,8 @@
         <div class="links-container">
         @foreach($user->links as $link)
             <div class="linkk" style="color: {{ $user->background_color }}">
-            <a href="{{ $link->link }}"
+            <a href="{{ $link->link }} "
+                            data-link-id="{{ $link->id }}" 
                             target="_blank"
                             rel="nofollow"
                         >{{ $link->name }}</a>
